@@ -9,7 +9,7 @@ import Calculator from './Calculator.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
-    {/* <Greetings/> */}
+    <Greetings/>
     <Login/>
     {/* <Calculator/> */}
   </StrictMode>,
