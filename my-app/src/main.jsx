@@ -6,13 +6,14 @@ import Greetings2 from './Greetings2.jsx'
 import Login from './Login.jsx'
 import Calculator from './Calculator.jsx'
 import Grid from './grid.jsx'
-
+import Welcome from './Welcome.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* <App /> */}
-     <Greetings2/>
     {/* <Login/>  */}
     {/* <Grid/> */}
     {/* <Calculator/> */}
+    <App />
+     {/* <Greetings2/> */}
+   
   </StrictMode>,
 )

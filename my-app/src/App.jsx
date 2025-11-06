@@ -1,5 +1,15 @@
 // import './App.css'
 
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+import Welcome from './Welcome'
+
+
+
+
+
 // class Student {
 //   constructor(name, age) {
 //     this.name = name;
@@ -41,10 +51,6 @@
 // DAY - 2
 
 
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
 
 // function App() {
 //   class ABC{
@@ -182,8 +188,12 @@ function App(){
   //  const first = arr[0];
   //  const middle = arr.slice(1,-1);
   //  const last = arr.slice(-1)[0]; 
-
    
+
+
+    return (
+    <Welcome name="Shahab Fardeen" topic = "Props" />
+  );
 
 }
 export default App
