@@ -189,12 +189,6 @@ function App(){
   //  const middle = arr.slice(1,-1);
   //  const last = arr.slice(-1)[0]; 
    
-
-
-    return (
-    <Welcome name="Shahab Fardeen" topic = "Props" />
-  );
-
 }
 export default App
 
